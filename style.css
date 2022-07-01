@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --font-text: 'Roboto', sans-serif;
+    --color-title: #E1E1E6;
+    --color-link: #C4C4CC;
+}
+
+body {
+    font-size: 1.6rem;
+    background: url('../images/mountains-universe-1.png');
+
+    color: white
+}
+
+nav{
+    display: flex;
+    margin: 4rem 0 4rem 7.2rem;
+    gap: 3.2rem;
+}
+
+nav a {
+    text-decoration: none;
+
+    font-size: 2.4rem;
+    color: var(--color-link);
+}
+
+nav a:hover { 
+    color: #fff;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-family: var(--font-text);
+    line-height: 125%;
+    color: var(--color-title)
+}
+
+button {
+    background: none;
+    color: #fff;
+
+    padding: 1.2rem 3.2rem;
+    font-size: 1.4rem;
+    font-family: var(--font-text);
+    line-height: 2.4rem;
+
+    border: .2rem solid #fff;
+    border-radius: .5rem;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6969d4;
+}

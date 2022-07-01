@@ -1,0 +1,23 @@
+h1 {
+    font-size: 4.8rem;
+    align-self: flex-start;
+}
+main {
+    width: 64.8rem;
+    height: 20.3rem;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 11.3rem;
+    padding-left: 10.3rem;
+
+    color: var(--color-title);
+
+}
+
+main p {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 160%;
+}
